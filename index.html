@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KELVIN WARUI</title>
+    <!--Name appearing at the tab of the website-->
+
+    <!--link the normalize.css link before the style.css file for it to be effective-->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
+
+    <!--link the style.css file to the html page so that the styles may work on the website-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!--section container with an id to link the home link on the nav container to the body of the website-->
+
+<body id="home">
+
+    <!--create a header container to hold the information at the top of the website-->
+    <header>
+
+        <!--a div container holdin the nav container and the logo at the top-most part of the website-->
+        <div>
+            <h2>@</h2>
+            <h1><strong>Software Developer</strong></h1>
+
+            <!--a navigation container with active links within the website-->
+            <nav>
+                <!--
+                    create the links using the <a/> tag
+                    use #<name> (with the id name on the section container) to direct to the final destination when the link is clicked
+                    then name the link
+                -->
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+
+        <!-- 
+            A h1 element on the header container 
+            use a class attribute so that you can use different styles from every other h1 element
+            use <br> to write the names in seperate lines
+        -->
+        <h1 class="note">KELVIN <br> WARUI</h1>
+        <!--enclose the header container with a closing tag-->
+    </header>
+
+    <!-- create a main container to hold the information in the middle of the website (main content)-->
+    <main>
+        <!--include an image using the <img/> tag-->
+        <img src="./images/me.jpg" alt="me">
+
+
+        <!--add article container using the <article/> tag to contain an intorduction paragraph -->
+        <article>
+            <h3>Hello! I'm Kelvin Warui</h3>
+            <p>I am a <em>Software Developer</em> located at <br> Kasarani, Nairobi-Kenya.</p>
+            <p class="nextpar">My love for creativity and design has <br> resulted to my interest in:</p>
+
+            <!--an unordered (<ul/>) list to list items using bulletings-->
+            <ul>
+                <li>Web design & development</li>
+                <li>Solving problems</li>
+                <li>Team building</li>
+            </ul>
+        </article>
+
+        <!--add a horizontal line using <hr> to seperate contents on the website-->
+        <hr>
+
+        <!--link attached to about in the nav contains the direction to the about section when clicked-->
+        <section id="about"></section>
+        <div>
+            <h3 class="aboutme">About Kelvin</h3>
+            <p>
+                After completing my highschool studies, I volunteered in Non-Govermental Organizations to help
+                make a change in the society we live in.
+                Besides that, I created and designed severel posters and banners for different occasions and
+                businesses.
+            </p>
+            <p>
+                As a web developer at <b>Thinkful</b>, I enjoy learning new skills each day that take me steps
+                closer to reaching my goal.
+                That is, becoming a <em>Software Developer</em>
+            </p>
+            <p>
+                If you are looking for <em>Junior Developer</em> to either help you with front end development
+                or to team up with on search tasks,
+                Please contact me so that we may solve software development problems and also learn from each
+                other.
+            </p>
+        </div>
+        </section>
+    </main>
+
+    <!--a footer container holding contact information at the bottom of the website-->
+    <footer id="contact">
+        <h3>Contact Information</h3>
+        <div>
+
+            <!--an ordered list to display my contact information in numbers-->
+            <ol class="contacts">
+
+                <!-- a link to my LinkedIn profile-->
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/kelvin-warui-79780224b/">Kelvin Warui</a>
+                </li>
+
+                <!-- a link to my github profile-->
+                <li>Github: <a href="https://github.com/wk-warui">wk-warui</a> </li>
+
+                <!--a link directing to an email with the send to filled in-->
+                <li>E-mail: <a href="mailto: kelvinwarui457@gmail.com">kelvinwarui457@gmail.com</a> </li>
+            </ol>
+        </div>
+        <h4> Location <br>
+
+            <!--a link to my location-->
+            <a
+                href="https://www.google.com/maps/place/Miller+Saving+%26+Credit+Co-Operative/@-1.2255213,36.9194366,3a,75y,112.93h,92.68t/data=!3m6!1e1!3m4!1s36cOFrgVQcidXGPpbEqRCA!2e0!7i16384!8i8192!4m5!3m4!1s0x182f1570522798e3:0x81adfbcade31deac!8m2!3d-1.225535!4d36.9195163">Kasarani-Hunters,
+                Nairobi-Kenya
+            </a>
+        </h4>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,227 @@
+/*style for the whole website*/
+* {
+    margin: auto;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/*style to the website's body*/
+body {
+    background-color: whitesmoke;
+    margin: auto;
+}
+
+/*add a header container to the website*/
+header {
+    background-image: url(./images/blue-computer.jpg);
+    background-size: cover;
+    width: 1364px;
+    height: 520px;
+}
+
+/*style the div container in the header container*/
+header>div {
+    background-color: rgba(144, 185, 234, 0.473);
+    width: 1364px;
+    height: 70px;
+}
+
+/* style all hz elements*/
+h2 {
+    position: absolute;
+    top: -1%;
+    left: 3%;
+    font-size: 60px;
+}
+
+/*Style all h1 elements*/
+h1 {
+    position: absolute;
+    top: -1%;
+    left: 7%;
+    color: black;
+}
+
+/*Style the navigation container*/
+nav {
+    float: right;
+    position: absolute;
+    top: 3%;
+    right: 7%;
+    border: 2px solid transparent;
+    font-size: 20px;
+}
+
+/*Change the color of every link*/
+a:link {
+    color: rgb(0, 132, 255);
+}
+
+/*Change the color of every visited link*/
+a:visited {
+    color: rgb(36, 37, 37);
+}
+
+/*change the background-color and the color of every link
+    when the pointer is placed on the link.
+*/
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* change the color of every active link*/
+a:active {
+    background-color: black;
+    color: greenyellow;
+}
+
+/*style the note class*/
+.note {
+    position: absolute;
+    top: 20%;
+    left: 11%;
+    color: whitesmoke;
+    font-size: 540%;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+/*Create a main container*/
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*Style every image aspect*/
+img {
+    width: 400px;
+    height: 400px;
+    border-radius: 90%;
+    margin: 3%;
+
+}
+
+/*style and place an article container to the website*/
+article {
+    float: right;
+    margin-top: 5%;
+    font-size: 25px;
+}
+
+
+/*style all h3 elements*/
+h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 180%;
+}
+
+article>p {
+    margin-left: 15px;
+}
+
+/*Add a horizontal line*/
+hr {
+    background-color: rgba(2, 131, 252, 0.651);
+    height: 7px;
+    border-radius: 50%;
+}
+
+/*style the unorderd lists element in the nextpar class*/
+.nextpar,
+ul {
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*style every list*/
+li {
+    margin-left: 16%;
+}
+
+/*style class aboutme*/
+.aboutme {
+    font-size: 280%;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*style the paragraph in the div container*/
+div>p {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Add a footer container at the bottom of the website*/
+footer {
+    background-color: rgba(2, 152, 252, 0.993);
+    color: black;
+    width: 1364px;
+    height: 250px;
+}
+
+/*style the h3 element in the footer container*/
+footer>h3 {
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*style the div container in the footer container*/
+footer>div {
+    margin-left: 20%;
+    margin-left: 20px;
+}
+
+/*style the ordered list*/
+ol {
+    font-size: 130%;
+}
+
+/*change color of the link in the ordered list*/
+ol>li>a:link {
+    color: blue;
+}
+
+/*chnage the color of the visited link*/
+ol>li>a:visited {
+    color: blue;
+}
+
+/*change the color of the link when the pointer is placed on the link*/
+ol>li>a:hover {
+    color: white;
+}
+
+/*stile the lists in the ordered list*/
+ol>li {
+    margin-top: 10px;
+}
+
+/*style the h4 elements*/
+h4 {
+    font-size: 130%;
+    text-align: center;
+    float: right;
+    margin-top: -90px;
+    margin-right: 20px;
+}
+
+/*chnage the coor of  the link in the h4 element*/
+h4>a:link {
+    color: blue;
+}
+
+/*change the color of the visited link in the h4 element*/
+h4>a:visited {
+    color: blue;
+}
+
+/*change the color of the the limk when then pointer is placed on it*/
+h4>a:hover {
+    color: white;
+}
